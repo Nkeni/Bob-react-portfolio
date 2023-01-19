@@ -1,20 +1,35 @@
 {
+  "homepage": "https://github.com/Nkeni/Bob-react-portfolio",
   "name": "bob-react-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nkeni/Bob-react-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nkeni/Bob-react-portfolio/issues"
+  },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1",
     "react-scripts": "^5.0.1",
     "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   },
   "browserslist": {
     "production": [
@@ -27,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }

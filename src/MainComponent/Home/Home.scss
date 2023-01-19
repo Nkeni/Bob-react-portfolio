@@ -1,0 +1,31 @@
+.container {
+  .home {
+    height: 700px;
+
+    .pic {
+      background-image: url(../../images/babe2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      border-radius: 1rem;
+    }
+
+    .intro {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 2rem;
+      letter-spacing: 0.1rem;
+
+      h2 {
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-size: 3rem;
+      }
+    }
+  }
+}
