@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Bob-react-portfolio/static/css/main.183d2aac.css",
+    "main.js": "/Bob-react-portfolio/static/js/main.69964ab0.js",
+    "static/media/lab.jpg": "/Bob-react-portfolio/static/media/lab.3b26cacae5244db29711.jpg",
+    "static/media/publication1.pdf": "/Bob-react-portfolio/static/media/publication1.3595d03d7c0c5037bfb6.pdf",
+    "static/media/lab2.jpg": "/Bob-react-portfolio/static/media/lab2.8ed8a28c2290dc71736a.jpg",
+    "static/media/paper1.png": "/Bob-react-portfolio/static/media/paper1.b95ae99fb57a02579573.png",
+    "static/media/img1.jpg": "/Bob-react-portfolio/static/media/img1.37b1e2705f9b8f534c4e.jpg",
+    "static/media/babe2.jpg": "/Bob-react-portfolio/static/media/babe2.d4fd89463777f8dd6bb4.jpg",
+    "static/media/resume.pdf": "/Bob-react-portfolio/static/media/resume.6f36caf4366edbf8f3aa.pdf",
+    "static/media/babe.jpg": "/Bob-react-portfolio/static/media/babe.2a397811b684d2202d29.jpg",
+    "index.html": "/Bob-react-portfolio/index.html",
+    "main.183d2aac.css.map": "/Bob-react-portfolio/static/css/main.183d2aac.css.map",
+    "main.69964ab0.js.map": "/Bob-react-portfolio/static/js/main.69964ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.183d2aac.css",
+    "static/js/main.69964ab0.js"
+  ]
+}
