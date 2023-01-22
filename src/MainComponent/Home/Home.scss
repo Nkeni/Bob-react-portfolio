@@ -1,4 +1,6 @@
-.container {
+.home-wrapper {
+  padding: 2rem;
+
   .home {
     height: 700px;
 
@@ -7,7 +9,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
-      border-radius: 1rem;
+      // border-radius: 1rem;
     }
 
     .intro {
@@ -16,6 +18,7 @@
       flex-direction: column;
       padding-left: 2rem;
       letter-spacing: 0.1rem;
+      color: black;
 
       h2 {
         text-transform: uppercase;

@@ -4,7 +4,7 @@ import pic from "../../images/babe.jpg";
 
 function Home() {
   return (
-    <Container>
+    <Container className="home-wrapper">
       <Row className="home">
         <Col xl="6" className="pic"></Col>
         <Col xl="6" className="intro">

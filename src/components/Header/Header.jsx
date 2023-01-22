@@ -1,6 +1,7 @@
 import "./Header.scss";
-import { Container, Navbar, Nav, Card } from "react-bootstrap";
+import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import resume from "../../../src/resume.pdf";
 
 function Header() {
   return (
@@ -25,6 +26,13 @@ function Header() {
                 Contact
               </Nav.Link>
             </Nav>
+          </Navbar.Collapse>
+          <Navbar.Collapse className="justify-content-end">
+            <Navbar.Text>
+              <a href={resume} target="blank" rel="noreferrer">
+                <Button variant="light">Resume</Button>{" "}
+              </a>
+            </Navbar.Text>
           </Navbar.Collapse>
         </Container>
       </Navbar>
