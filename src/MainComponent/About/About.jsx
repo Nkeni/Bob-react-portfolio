@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function About() {
   return (
-    <Container>
+    <Container className="about-wrapper">
       <Row className="about">
         <h2>About me</h2>
         <p>
