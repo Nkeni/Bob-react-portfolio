@@ -9,7 +9,7 @@ import { Navigate } from "react-router-dom";
 function Main() {
   return (
     <div className="main">
-      <Routes basename="/Bob-react-portfolio ">
+      <Routes basename="/Bob-react-portfolio">
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
