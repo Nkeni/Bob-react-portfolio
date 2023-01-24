@@ -1,6 +1,4 @@
 .home-wrapper {
-  padding: 2rem;
-
   .home {
     height: 700px;
 
@@ -15,8 +13,9 @@
     .intro {
       display: flex;
       justify-content: center;
+      align-items: center;
       flex-direction: column;
-      padding-left: 0.5rem;
+
       letter-spacing: 0.1rem;
       color: black;
 

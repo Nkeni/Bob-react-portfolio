@@ -5,10 +5,10 @@ import resume from "../../../src/resume.pdf";
 
 function Header() {
   return (
-    <div className="header">
+    <div>
       {/* <div className="top"></div> */}
       <Navbar expand="lg" variant="dark" bg="dark">
-        <Container>
+        <Container className="header">
           <Navbar.Brand as={Link}>Bob Kyeyune</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

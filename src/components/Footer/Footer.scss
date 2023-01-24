@@ -3,6 +3,27 @@
   background-color: black;
   color: white;
   display: flex;
+  // justify-content: space-around;
   justify-content: center;
   align-items: center;
+
+  .copyright {
+    margin-right: 0.3rem;
+  }
+
+  .linkedin,
+  .research-gate {
+    width: 60px;
+    font-family: "Righteous", cursive;
+  }
+
+  .linkedin {
+    background-color: rgb(13, 13, 222);
+    color: white;
+  }
+
+  .research-gate {
+    background-color: rgb(95, 228, 183);
+    color: white;
+  }
 }
