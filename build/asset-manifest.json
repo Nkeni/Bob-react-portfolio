@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bob-react-portfolio/static/css/main.718948c8.css",
-    "main.js": "/Bob-react-portfolio/static/js/main.bdb37d5e.js",
+    "main.js": "/Bob-react-portfolio/static/js/main.1791c0dd.js",
     "static/media/lab.jpg": "/Bob-react-portfolio/static/media/lab.3b26cacae5244db29711.jpg",
     "static/media/publication1.pdf": "/Bob-react-portfolio/static/media/publication1.3595d03d7c0c5037bfb6.pdf",
     "static/media/lab2.jpg": "/Bob-react-portfolio/static/media/lab2.8ed8a28c2290dc71736a.jpg",
@@ -12,10 +12,10 @@
     "static/media/babe.jpg": "/Bob-react-portfolio/static/media/babe.2a397811b684d2202d29.jpg",
     "index.html": "/Bob-react-portfolio/index.html",
     "main.718948c8.css.map": "/Bob-react-portfolio/static/css/main.718948c8.css.map",
-    "main.bdb37d5e.js.map": "/Bob-react-portfolio/static/js/main.bdb37d5e.js.map"
+    "main.1791c0dd.js.map": "/Bob-react-portfolio/static/js/main.1791c0dd.js.map"
   },
   "entrypoints": [
     "static/css/main.718948c8.css",
-    "static/js/main.bdb37d5e.js"
+    "static/js/main.1791c0dd.js"
   ]
 }
