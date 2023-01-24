@@ -17,7 +17,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
+  "bugs": {
+    "url": "https://github.com/Nkeni/Bob-react-portfolio/issues"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
