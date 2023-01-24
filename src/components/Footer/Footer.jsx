@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer">
       <p className="copyright"> &copy; Bob Kyeyune</p>
-      <div class="social-container">
+      <div className="social-container">
         <a
           href="https://www.linkedin.com/in/bob-kyeyune-a37263137/?originalSubdomain=de"
           target="blank"
