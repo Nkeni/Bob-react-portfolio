@@ -10,7 +10,7 @@ function Footer() {
           href="https://www.linkedin.com/in/bob-kyeyune-a37263137/?originalSubdomain=de"
           target="blank"
         >
-          <Button className="linkedin" variant="light">
+          <Button className="linkedin" variant="dark">
             in
           </Button>{" "}
         </a>
@@ -19,9 +19,9 @@ function Footer() {
           href="https://www.researchgate.net/profile/Bob-Kyeyune"
           target="blank"
         >
-          <Button className="research-gate" variant="light">
+          <Button className="research-gate" variant="dark">
             RG
-          </Button>{" "}
+          </Button>
         </a>
       </div>
     </div>

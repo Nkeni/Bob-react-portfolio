@@ -1,11 +1,29 @@
 .contact {
   padding-top: 5rem;
 
-  .input-container {
-    margin-bottom: 0.5rem;
-  }
+  .contact-wrapper {
+    height: 600px;
 
-  .btn-outline-success {
-    margin-top: 1rem;
+    .contact-form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .input-container {
+        margin-bottom: 0.5rem;
+      }
+
+      .btn-outline-success {
+        margin-top: 1rem;
+      }
+    }
+
+    .contact-pic {
+      background-image: url(../../images/contact.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 0.2rem;
+    }
   }
 }
