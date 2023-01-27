@@ -12,7 +12,7 @@ function Footer() {
         >
           <Button className="linkedin" variant="dark">
             in
-          </Button>{" "}
+          </Button>
         </a>
 
         <a

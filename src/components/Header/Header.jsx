@@ -16,9 +16,9 @@ function Header() {
               <Nav.Link as={Link} to="/home">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/about">
+              {/* <Nav.Link as={Link} to="/about">
                 About
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link as={Link} to="/projects">
                 Projects
               </Nav.Link>

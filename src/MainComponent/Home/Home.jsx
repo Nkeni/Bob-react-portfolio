@@ -1,5 +1,6 @@
 import "./Home.scss";
 import { Container, Row, Col } from "react-bootstrap";
+import About from "../About/About.jsx";
 import pic from "../../images/babe.jpg";
 
 function Home() {
@@ -12,6 +13,10 @@ function Home() {
           <h1>I am Bob Kyeyune</h1>
           <h2>nanoscientist</h2>
         </Col>
+      </Row>
+
+      <Row>
+        <About />
       </Row>
     </Container>
   );
