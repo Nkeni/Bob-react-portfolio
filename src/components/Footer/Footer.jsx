@@ -1,5 +1,7 @@
 import "./Footer.scss";
 import { Button } from "react-bootstrap";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaResearchgate } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -10,18 +12,14 @@ function Footer() {
           href="https://www.linkedin.com/in/bob-kyeyune-a37263137/?originalSubdomain=de"
           target="blank"
         >
-          <Button className="linkedin" variant="dark">
-            in
-          </Button>
+          <FaLinkedinIn className="linkedin" />
         </a>
 
         <a
           href="https://www.researchgate.net/profile/Bob-Kyeyune"
           target="blank"
         >
-          <Button className="research-gate" variant="dark">
-            RG
-          </Button>
+          <FaResearchgate className="research-gate" />
         </a>
       </div>
     </div>

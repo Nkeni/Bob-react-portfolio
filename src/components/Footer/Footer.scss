@@ -9,11 +9,15 @@
 
   .linkedin,
   .research-gate {
-    width: 60px;
-    font-family: "Righteous", cursive;
+    font-size: 1.5rem;
   }
 
   .linkedin {
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+    color: white;
+  }
+
+  .research-gate {
+    background-color: white;
   }
 }
