@@ -15,7 +15,7 @@ function About() {
       </Row>
 
       <Row className="about1">
-        <Col xl="6" className="about-intro">
+        <Col xl="7" className="about-intro">
           <h2>What I do</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore a
@@ -27,7 +27,7 @@ function About() {
             sint labore.
           </p>
         </Col>
-        <Col xl="6" className="about-pic"></Col>
+        <Col xl="5" className="about-pic"></Col>
       </Row>
     </Container>
   );

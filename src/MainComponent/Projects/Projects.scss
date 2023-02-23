@@ -2,16 +2,16 @@
   .projects {
     display: flex;
     justify-content: center;
-
+    align-items: center;
     padding: 0 3rem;
     margin: 2rem 0;
     gap: 1rem;
 
     .project {
-      border: 1px solid white;
+      border: 1px solid rgb(247, 244, 244);
       border-radius: 0.3rem;
-      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
-      background-color: white;
+      box-shadow: 10px 10px 30px rgba(231, 229, 229, 0.1);
+      background-color: rgb(227, 222, 222);
       padding: 1rem;
 
       .description {
@@ -25,21 +25,21 @@
 
       .project-pic1 {
         height: 200px;
-        background-image: url(../../images/paper1.png);
+        background-image: url(../../images/STM.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       .project-pic2 {
         height: 200px;
-        background-image: url(../../images/img1.jpg);
+        background-image: url(../../images/figureAFM.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       .project-pic3 {
         height: 200px;
-        background-image: url(../../images/lab2.jpg);
+        background-image: url(../../images/kpfmfigure.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
