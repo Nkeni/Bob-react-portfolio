@@ -1,48 +1,36 @@
 .container {
   .projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 3rem;
-    margin: 2rem 0;
-    gap: 1rem;
+    // border: 2px solid grey;
+    margin: 5rem 0;
+    width: fit-content;
 
-    .project {
-      border: 1px solid rgb(247, 244, 244);
-      border-radius: 0.3rem;
-      box-shadow: 10px 10px 30px rgba(231, 229, 229, 0.1);
-      background-color: rgb(227, 222, 222);
-      padding: 1rem;
-
-      .description {
-        height: 100px;
-
-        p {
-          margin-top: 1rem;
-          text-align: justify;
-        }
-      }
-
-      .project-pic1 {
-        height: 200px;
-        background-image: url(../../images/STM.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-
-      .project-pic2 {
-        height: 200px;
-        background-image: url(../../images/figureAFM.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-
-      .project-pic3 {
-        height: 200px;
-        background-image: url(../../images/kpfmfigure.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+    .project-pic {
+      // height: 600px;
+      background-color: white;
+      box-shadow: 0 0 5px rgb(130, 127, 127);
+      img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
       }
     }
+
+    // .description {
+    //   height: 650px;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   flex-direction: column;
+    //   p {
+    //     text-align: justify;
+    //   }
+    //
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // padding: 0 3rem;
+    // margin: 2rem 0;
+    // gap: 1rem;
   }
 }
