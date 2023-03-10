@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Bob-react-portfolio/static/css/main.291f472d.css",
-    "main.js": "/Bob-react-portfolio/static/js/main.b7a29a73.js",
+    "main.css": "/Bob-react-portfolio/static/css/main.4478af46.css",
+    "main.js": "/Bob-react-portfolio/static/js/main.8463e02e.js",
     "static/media/contact.jpg": "/Bob-react-portfolio/static/media/contact.261db2edf39decf4ab69.jpg",
     "static/media/lab.jpg": "/Bob-react-portfolio/static/media/lab.3b26cacae5244db29711.jpg",
     "static/media/STM.png": "/Bob-react-portfolio/static/media/STM.25be1d5660a09d9a3222.png",
@@ -13,11 +13,11 @@
     "static/media/resume.pdf": "/Bob-react-portfolio/static/media/resume.6f36caf4366edbf8f3aa.pdf",
     "static/media/babe.jpg": "/Bob-react-portfolio/static/media/babe.2a397811b684d2202d29.jpg",
     "index.html": "/Bob-react-portfolio/index.html",
-    "main.291f472d.css.map": "/Bob-react-portfolio/static/css/main.291f472d.css.map",
-    "main.b7a29a73.js.map": "/Bob-react-portfolio/static/js/main.b7a29a73.js.map"
+    "main.4478af46.css.map": "/Bob-react-portfolio/static/css/main.4478af46.css.map",
+    "main.8463e02e.js.map": "/Bob-react-portfolio/static/js/main.8463e02e.js.map"
   },
   "entrypoints": [
-    "static/css/main.291f472d.css",
-    "static/js/main.b7a29a73.js"
+    "static/css/main.4478af46.css",
+    "static/js/main.8463e02e.js"
   ]
 }
