@@ -6,8 +6,7 @@ import resume from "../../../src/resume.pdf";
 function Header() {
   return (
     <div>
-      {/* <div className="top"></div> */}
-      <Navbar expand="lg" variant="dark" bg="dark">
+      <Navbar expand="lg" variant="light" bg="light">
         <Container className="header">
           <Navbar.Brand as={Link}>Bob Kyeyune</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,9 +15,6 @@ function Header() {
               <Nav.Link as={Link} to="/home">
                 Home
               </Nav.Link>
-              {/* <Nav.Link as={Link} to="/about">
-                About
-              </Nav.Link> */}
               <Nav.Link as={Link} to="/projects">
                 Projects
               </Nav.Link>
