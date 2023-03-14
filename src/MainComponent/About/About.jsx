@@ -4,19 +4,14 @@ import { Container, Row, Col } from "react-bootstrap";
 function About() {
   return (
     <Container className="about-wrapper">
-      <Row className="about">
-        <h2>About me</h2>
-        <p>
-          I am a nano sciensist with a goal of gaining fundamental experience in
-          physics of materials through research activities. Bridging the gap
-          between Industry and scientific research as a pivotal ingredient
-          towards next generation technological advancement.
-        </p>
-      </Row>
-
       <Row className="about1">
-        <Col xl="7" className="about-intro">
-          <h2>What I do</h2>
+        <Col sm={7} className="about-intro">
+          <p>
+            I am a nano sciensist with a goal of gaining fundamental experience
+            in physics of materials through research activities. Bridging the
+            gap between Industry and scientific research as a pivotal ingredient
+            towards next generation technological advancement.
+          </p>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore a
             quaerat sapiente earum inventore quos modi culpa animi quas,
@@ -27,7 +22,7 @@ function About() {
             sint labore.
           </p>
         </Col>
-        <Col xl="5" className="about-pic"></Col>
+        <Col sm={5} className="about-pic"></Col>
       </Row>
     </Container>
   );

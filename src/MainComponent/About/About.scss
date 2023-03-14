@@ -1,22 +1,14 @@
 .about-wrapper {
-  background-color: rgba(208, 202, 202, 0.854);
+  background-color: rgba(165, 162, 162, 0.854);
   border-radius: 0.3rem;
-  box-shadow: 0 0 5px rgb(79, 78, 78);
-  margin-top: 5rem;
-
-  .about {
-    margin: 1rem 0;
-    text-align: justify;
-  }
-
+  margin-bottom: 4rem;
   .about1 {
     height: 500px;
-    padding: 0.5rem;
+    padding: 1rem;
 
     .about-intro {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: space-around;
       flex-direction: column;
       text-align: justify;
 

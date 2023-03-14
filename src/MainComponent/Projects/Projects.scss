@@ -1,11 +1,12 @@
 .container {
   .projects {
-    // border: 2px solid grey;
     margin: 5rem 0;
-    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .project-pic {
-      // height: 600px;
       background-color: white;
       box-shadow: 0 0 5px rgb(130, 127, 127);
       img {
@@ -15,22 +16,15 @@
       }
     }
 
-    // .description {
-    //   height: 650px;
-    //   display: flex;
-    //   justify-content: center;
-    //   align-items: center;
-    //   flex-direction: column;
-    //   p {
-    //     text-align: justify;
-    //   }
-    //
+    .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 300px;
 
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // padding: 0 3rem;
-    // margin: 2rem 0;
-    // gap: 1rem;
+      p {
+        text-align: justify;
+      }
+    }
   }
 }

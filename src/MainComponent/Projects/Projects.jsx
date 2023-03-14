@@ -1,21 +1,21 @@
 import "./Projects.scss";
 import { Row, Container, Card, CardGroup, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import pic from "../../images/STM.png";
-import pic1 from "../../images/figureAFM.png";
-import pic2 from "../../images/kpfmfigure.png";
+import pic from "../../images/lab.jpg";
+import pic1 from "../../images/lab2.jpg";
+import pic2 from "../../images/img1.jpg";
 import paper1 from "../../../src/publication1.pdf";
 
 function Projects() {
   return (
     <Container>
       <Row className="projects">
-        <Col xl="9">
+        <Col sm={9}>
           <div className="project-pic">
             <img src={pic} alt="paper1" />
           </div>
         </Col>
-        <Col xl="3">
+        <Col sm={3}>
           {" "}
           <div className="description">
             <p>
@@ -33,12 +33,12 @@ function Projects() {
       </Row>
       <hr />
       <Row className="projects">
-        <Col xl="9">
+        <Col sm={9}>
           <div className="project-pic">
             <img src={pic1} alt="paper2" />
           </div>
         </Col>
-        <Col xl="3">
+        <Col sm={3}>
           {" "}
           <div className="description">
             <p>
@@ -54,12 +54,12 @@ function Projects() {
       </Row>
       <hr />
       <Row className="projects">
-        <Col xl="9">
+        <Col sm={9}>
           <div className="project-pic">
             <img src={pic2} alt="paper2" />
           </div>
         </Col>
-        <Col xl="3">
+        <Col sm={3}>
           {" "}
           <div className="description">
             <p>
