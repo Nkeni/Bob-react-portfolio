@@ -1,7 +1,6 @@
 import "./Home.scss";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import About from "../About/About.jsx";
-import pic from "../../images/babe.jpg";
 import resume from "../../../src/resume.pdf";
 
 function Home() {

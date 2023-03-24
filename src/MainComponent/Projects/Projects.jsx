@@ -1,6 +1,5 @@
 import "./Projects.scss";
-import { Row, Container, Card, CardGroup, Col, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Row, Container, Col, Button } from "react-bootstrap";
 import pic from "../../images/bob1.png";
 import pic1 from "../../images/bob2.png";
 import pic2 from "../../images/bob3.png";
