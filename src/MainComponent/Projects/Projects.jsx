@@ -1,9 +1,9 @@
 import "./Projects.scss";
 import { Row, Container, Card, CardGroup, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import pic from "../../images/lab.jpg";
-import pic1 from "../../images/lab2.jpg";
-import pic2 from "../../images/img1.jpg";
+import pic from "../../images/bob1.png";
+import pic1 from "../../images/bob2.png";
+import pic2 from "../../images/bob3.png";
 import paper1 from "../../../src/publication1.pdf";
 
 function Projects() {
