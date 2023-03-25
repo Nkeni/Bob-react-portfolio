@@ -8,14 +8,11 @@ import paper1 from "../../../src/publication1.pdf";
 function Projects() {
   return (
     <Container>
-      <Row className="projects">
-        <Col sm={9}>
+      <Row>
+        <Col className="project1" sm={12}>
           <div className="project-pic">
             <img src={pic} alt="paper1" />
           </div>
-        </Col>
-        <Col sm={3}>
-          {" "}
           <div className="description">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
@@ -31,14 +28,11 @@ function Projects() {
         </Col>
       </Row>
       <hr />
-      <Row className="projects">
-        <Col sm={9}>
+      <Row>
+        <Col className="project1" sm={12}>
           <div className="project-pic">
             <img src={pic1} alt="paper2" />
           </div>
-        </Col>
-        <Col sm={3}>
-          {" "}
           <div className="description">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
@@ -52,14 +46,12 @@ function Projects() {
         </Col>
       </Row>
       <hr />
-      <Row className="projects">
-        <Col sm={9}>
+      <Row>
+        <Col className="project1" sm={12}>
           <div className="project-pic">
             <img src={pic2} alt="paper2" />
           </div>
-        </Col>
-        <Col sm={3}>
-          {" "}
+
           <div className="description">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,

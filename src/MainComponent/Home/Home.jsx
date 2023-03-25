@@ -23,7 +23,7 @@ function Home() {
       <Row>
         <Card className="text-center my-5">
           <Card.Body>
-            <h2>Who am I?</h2>
+            <h2>About me</h2>
           </Card.Body>
         </Card>
       </Row>

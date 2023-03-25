@@ -1,5 +1,6 @@
 import "./About.scss";
 import { Container, Row, Col } from "react-bootstrap";
+import lab from "../../images/lab.jpg";
 
 function About() {
   return (
@@ -22,7 +23,9 @@ function About() {
             sint labore.
           </p>
         </Col>
-        <Col sm={5} className="about-pic"></Col>
+        <Col sm={5} className="about-pic">
+          <img src={lab} alt="lab" />
+        </Col>
       </Row>
     </Container>
   );
